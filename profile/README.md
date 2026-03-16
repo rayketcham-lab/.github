@@ -20,28 +20,28 @@ Quantum Nexum is a PQC PKI platform and educational resource built to close that
 
 **SPORK CA** is the engine behind it — a Rust-based certificate authority with:
 - ML-DSA and ML-KEM algorithm support
-- - ACME protocol for automated certificate issuance
-  - - Multi-tier CA hierarchy built for PQC from the ground up
-   
-    - Currently in active development and alpha testing. Watch this space.
-   
-    - ---
+- ACME protocol for automated certificate issuance
+- Multi-tier CA hierarchy built for PQC from the ground up
 
-    ## Public Projects
+Currently in active development and alpha testing. Watch this space.
 
-    | Repo | Description |
-    |------|-------------|
-    | [parcl](https://github.com/rayketcham-lab/parcl) | Secure email certificate manager for Outlook — S/MIME encryption, signing, LDAP lookup |
-    | [PKI-Client](https://github.com/rayketcham-lab/PKI-Client) | PKI operations CLI — certificate inspection, key management, TLS probing, enrollment protocols |
-    | [PKI-Signing-Service](https://github.com/rayketcham-lab/PKI-Signing-Service) | Rust code signing engine — Authenticode, PKCS#7/CMS, RFC 3161 timestamping |
-    | [issue-reporter](https://github.com/rayketcham-lab/issue-reporter) | Drop-in feedback widget — reports become GitHub issues, no backend, no dependencies |
+---
 
-    ---
+## Public Projects
 
-    ## Stack
+| Repo | Description |
+|------|-------------|
+| [parcl](https://github.com/rayketcham-lab/parcl) | Secure email certificate manager for Outlook — S/MIME encryption, signing, LDAP lookup |
+| [PKI-Client](https://github.com/rayketcham-lab/PKI-Client) | PKI operations CLI — certificate inspection, key management, TLS probing, enrollment protocols |
+| [PKI-Signing-Service](https://github.com/rayketcham-lab/PKI-Signing-Service) | Rust code signing engine — Authenticode, PKCS#7/CMS, RFC 3161 timestamping |
+| [issue-reporter](https://github.com/rayketcham-lab/issue-reporter) | Drop-in feedback widget — reports become GitHub issues, no backend, no dependencies |
 
-    Rust · C# · Python · ACME · X.509 · FIPS 140 · NIST PQC Standards
+---
 
-    ---
+## Stack
 
-    *More coming as projects mature out of the lab.*
+Rust · C# · Python · ACME · X.509 · FIPS 140 · NIST PQC Standards
+
+---
+
+*More coming as projects mature out of the lab.*
