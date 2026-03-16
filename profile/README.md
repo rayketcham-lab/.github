@@ -21,7 +21,7 @@ Quantum Nexum is a PQC PKI platform and educational resource built to close that
 **SPORK CA** is the engine behind it — a Rust-based certificate authority with:
 - ML-DSA and ML-KEM algorithm support
 - - ACME protocol for automated certificate issuance
-  - - A multi-tier CA hierarchy built for PQC from the ground up
+  - - Multi-tier CA hierarchy built for PQC from the ground up
    
     - Currently in active development and alpha testing. Watch this space.
    
