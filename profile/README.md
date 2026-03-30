@@ -31,6 +31,7 @@ Currently in active development and alpha testing. Watch this space.
 
 | Repo | Description |
 |------|-------------|
+| [qn-claude-web](https://github.com/rayketcham-lab/qn-claude-web) | Self-hosted web frontend for Claude Code CLI — access Claude Code from any browser, any device |
 | [parcl](https://github.com/rayketcham-lab/parcl) | Secure email certificate manager for Outlook — S/MIME encryption, signing, LDAP lookup |
 | [PKI-Client](https://github.com/rayketcham-lab/PKI-Client) | PKI operations CLI — certificate inspection, key management, TLS probing, enrollment protocols |
 | [PKI-Signing-Service](https://github.com/rayketcham-lab/PKI-Signing-Service) | Rust code signing engine — Authenticode, PKCS#7/CMS, RFC 3161 timestamping |
