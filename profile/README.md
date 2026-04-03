@@ -23,24 +23,34 @@ Quantum Nexum is a PQC PKI platform and educational resource built to close that
 ---
 
 ## Public Projects
+### Spotlight
 
+#### PKI-Signing-Service
+
+Pure Rust code signing engine supporting Authenticode (PE/CAB/MSI), PKCS#7/CMS, RFC 3161 timestamping, and PowerShell SIP. Multi-algorithm support including RSA, ECDSA, Ed25519, and **ML-DSA** (post-quantum). REST API for integration into CI/CD pipelines.
+
+![Stable](https://img.shields.io/badge/status-Stable-blue) ![Rust](https://img.shields.io/badge/Rust-DEA584?logo=rust&logoColor=white) [View Repository →](https://github.com/rayketcham-lab/PKI-Signing-Service)
+
+#### PKI-Client
+
+Modern PKI operations tool for certificate inspection, key management, TLS probing, and enrollment protocols (EST, SCEP, CMP). Built for operators who need to debug and manage certificate infrastructure at scale.
+
+![Active](https://img.shields.io/badge/status-Active-brightgreen) ![Rust](https://img.shields.io/badge/Rust-DEA584?logo=rust&logoColor=white) [View Repository →](https://github.com/rayketcham-lab/PKI-Client)
 ### Security & PKI
 
-| Repo | What It Does |
-|------|-------------|
-| [ml-dsa-dilithium-certificate-chain-hub](https://github.com/rayketcham-lab/ml-dsa-dilithium-certificate-chain-hub) | ML-DSA (Dilithium) certificate chain validation tooling — tailored for code signing `Python` |
-| [project-forge](https://github.com/rayketcham-lab/project-forge) | Autonomous IT project think-tank engine — generates, scores, synthesizes, and scaffolds project ideas into GitHub rep... `Python` |
-| [PKI-Client](https://github.com/rayketcham-lab/PKI-Client) | Modern PKI operations tool — certificate inspection, key management, TLS probing, and enrollment protocols `Rust` |
-| [PKI-Signing-Service](https://github.com/rayketcham-lab/PKI-Signing-Service) | Pure Rust code signing engine — Authenticode (PE/CAB/MSI), PKCS#7/CMS, RFC 3161 timestamping, PowerShell SIP, detache... `Rust` |
-| [parcl](https://github.com/rayketcham-lab/parcl) | S/MIME Certificate Manager & Encryption Add-in for Microsoft Outlook — encryption, signing, LDAP certificate lookup, ... `C#` |
+| Repo | What It Does | Status |
+|------|-------------|--------|
+| [project-forge](https://github.com/rayketcham-lab/project-forge) | Autonomous IT project think-tank engine — generates, scores, synthesizes, and scaffolds project ideas into GitHub repos with CI/CD. Claude-powered with offline fallback. | ![Active](https://img.shields.io/badge/status-Active-brightgreen) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) |
+| [ml-dsa-dilithium-certificate-chain-hub](https://github.com/rayketcham-lab/ml-dsa-dilithium-certificate-chain-hub) | ML-DSA Dilithium certificate chain validation tooling — tailored for code signing | ![Active](https://img.shields.io/badge/status-Active-brightgreen) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) |
+| [web-test-idea](https://github.com/rayketcham-lab/web-test-idea) | Web application security testing framework and experimentation sandbox | ![Beta](https://img.shields.io/badge/status-Beta-orange) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) |
+| [parcl](https://github.com/rayketcham-lab/parcl) | S/MIME Certificate Manager & Encryption Add-in for Microsoft Outlook — encryption, signing, LDAP certificate lookup, RFC 5751/7508 compliant | ![Beta](https://img.shields.io/badge/status-Beta-orange) ![C#](https://img.shields.io/badge/C#-239120?logo=c#&logoColor=white) |
 
 ### Developer Tools
 
-| Repo | What It Does |
-|------|-------------|
-| [web-test-idea](https://github.com/rayketcham-lab/web-test-idea) | Testing the web `Python` |
-| [qn-claude-web](https://github.com/rayketcham-lab/qn-claude-web) | Self-hosted web frontend for Claude Code CLI — access Claude Code from any browser, any device, anywhere on your network `Python` |
-| [issue-reporter](https://github.com/rayketcham-lab/issue-reporter) | Drop a feedback button on any web page. Reports become GitHub issues. No backend required. No dependencies. One file. `JavaScript` |
+| Repo | What It Does | Status |
+|------|-------------|--------|
+| [qn-claude-web](https://github.com/rayketcham-lab/qn-claude-web) | Self-hosted web frontend for Claude Code CLI — access Claude Code from any browser, any device, anywhere on your network | ![Active](https://img.shields.io/badge/status-Active-brightgreen) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) |
+| [issue-reporter](https://github.com/rayketcham-lab/issue-reporter) | Drop a feedback button on any web page. Reports become GitHub issues. No backend required. No dependencies. One file. | ![Stable](https://img.shields.io/badge/status-Stable-blue) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=white) |
 
 ---
 
@@ -50,6 +60,15 @@ C# · JavaScript · Python · Rust
 
 ---
 
-*Building in the open where we can. More projects maturing out of the lab.*
+## Get In Touch
 
-<sub>Auto-updated 2026-04-01 03:44 UTC</sub>
+We build in the open where we can. Contributions, issues, and discussions are welcome on any of our public repositories.
+
+- **Web**: [quantumnexum.com](https://quantumnexum.com)
+- **Email**: root@quantumnexum.com
+
+---
+
+*More projects maturing out of the lab.*
+
+<sub>Auto-updated 2026-04-03 17:27 UTC</sub>
