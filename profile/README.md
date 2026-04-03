@@ -40,15 +40,15 @@ Modern PKI operations tool for certificate inspection, key management, TLS probi
 
 | Repo | What It Does | Status |
 |------|-------------|--------|
-| [project-forge](https://github.com/rayketcham-lab/project-forge) | Autonomous IT project think-tank engine — generates, scores, synthesizes, and scaffolds project ideas into GitHub repos with CI/CD. Claude-powered with offline fallback. | ![Active](https://img.shields.io/badge/status-Active-brightgreen) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) |
 | [ml-dsa-dilithium-certificate-chain-hub](https://github.com/rayketcham-lab/ml-dsa-dilithium-certificate-chain-hub) | ML-DSA Dilithium certificate chain validation tooling — tailored for code signing | ![Active](https://img.shields.io/badge/status-Active-brightgreen) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) |
-| [web-test-idea](https://github.com/rayketcham-lab/web-test-idea) | Web application security testing framework and experimentation sandbox | ![Beta](https://img.shields.io/badge/status-Beta-orange) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) |
 | [parcl](https://github.com/rayketcham-lab/parcl) | S/MIME Certificate Manager & Encryption Add-in for Microsoft Outlook — encryption, signing, LDAP certificate lookup, RFC 5751/7508 compliant | ![Beta](https://img.shields.io/badge/status-Beta-orange) ![C#](https://img.shields.io/badge/C#-239120?logo=c#&logoColor=white) |
 
 ### Developer Tools
 
 | Repo | What It Does | Status |
 |------|-------------|--------|
+| [project-forge](https://github.com/rayketcham-lab/project-forge) | Autonomous IT project think-tank engine — generates, scores, synthesizes, and scaffolds project ideas into GitHub repos with CI/CD. Claude-powered with offline fallback. | ![Active](https://img.shields.io/badge/status-Active-brightgreen) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) |
+| [web-test-idea](https://github.com/rayketcham-lab/web-test-idea) | Web application security testing framework and experimentation sandbox | ![Beta](https://img.shields.io/badge/status-Beta-orange) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) |
 | [qn-claude-web](https://github.com/rayketcham-lab/qn-claude-web) | Self-hosted web frontend for Claude Code CLI — access Claude Code from any browser, any device, anywhere on your network | ![Active](https://img.shields.io/badge/status-Active-brightgreen) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) |
 | [issue-reporter](https://github.com/rayketcham-lab/issue-reporter) | Drop a feedback button on any web page. Reports become GitHub issues. No backend required. No dependencies. One file. | ![Stable](https://img.shields.io/badge/status-Stable-blue) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=white) |
 
@@ -71,4 +71,4 @@ We build in the open where we can. Contributions, issues, and discussions are we
 
 *More projects maturing out of the lab.*
 
-<sub>Auto-updated 2026-04-03 17:27 UTC</sub>
+<sub>Auto-updated 2026-04-03 17:28 UTC</sub>
