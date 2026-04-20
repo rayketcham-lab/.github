@@ -26,7 +26,7 @@ We're also exploring AI-driven project ideation with **Project Forge**, an auton
 
 ### PKI-Signing-Service
 
-Pure Rust code signing engine supporting Authenticode (PE/CAB/MSI), PKCS#7/CMS, RFC 3161 timestamping, and PowerShell SIP. Multi-algorithm support including RSA, ECDSA, Ed25519, and **ML-DSA** (post-quantum). REST API for integration into CI/CD pipelines.
+Pure Rust code signing engine supporting Authenticode (PE/CAB/MSI), PKCS#7/CMS, RFC 3161 timestamping, and PowerShell script signing. Multi-algorithm support including RSA, ECDSA, Ed25519, and **ML-DSA** (post-quantum). REST API for integration into CI/CD pipelines.
 
 ![Alpha](https://img.shields.io/badge/status-Alpha-red) ![Rust](https://img.shields.io/badge/Rust-DEA584?logo=rust&logoColor=white) &nbsp; [View Repository →](https://github.com/rayketcham-lab/PKI-Signing-Service)
 
@@ -34,7 +34,7 @@ Pure Rust code signing engine supporting Authenticode (PE/CAB/MSI), PKCS#7/CMS, 
 
 ### PKI-Client
 
-Modern PKI operations tool for certificate inspection, key management, TLS probing, and enrollment protocols (EST, SCEP, CMP). Built for operators who need to debug and manage certificate infrastructure at scale.
+Modern PKI operations tool for certificate inspection, key management, TLS probing, compliance validation, and DANE. Built as an `openssl` replacement for operators who need to debug and manage certificate infrastructure at scale.
 
 ![Alpha](https://img.shields.io/badge/status-Alpha-red) ![Rust](https://img.shields.io/badge/Rust-DEA584?logo=rust&logoColor=white) &nbsp; [View Repository →](https://github.com/rayketcham-lab/PKI-Client)
 
@@ -75,4 +75,4 @@ We build in the open where we can. Contributions, issues, and discussions are we
 
 ---
 
-*More projects maturing out of the lab.*
+*Building in the open.*
