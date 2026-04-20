@@ -1,0 +1,48 @@
+name: Bug Report
+description: Report a bug or unexpected behavior
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened? What did you expect to happen?
+      placeholder: A clear description of the bug...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this?
+      placeholder: |
+        1. Run `...`
+        2. Observe...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: What version are you running?
+      placeholder: e.g., 0.3.0, commit abc1234
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - Low — cosmetic or minor inconvenience
+        - Medium — broken feature with workaround
+        - High — broken feature, no workaround
+        - Critical — security issue or data loss
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, toolchain, relevant config
+      placeholder: |
+        - OS: Ubuntu 24.04
+        - Rust: 1.82
+        - OpenSSL: 3.0.13
