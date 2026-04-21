@@ -3,7 +3,7 @@
 Infrastructure-focused research lab building at the intersection of enterprise PKI, post-quantum cryptography, and security engineering.
 
 ![Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue)&nbsp;
-![Repos](https://img.shields.io/badge/public%20repos-7-green)&nbsp;
+![Repos](https://img.shields.io/badge/public%20repos-8-green)&nbsp;
 ![Commit Signing](https://img.shields.io/badge/commit%20signing-required-brightgreen)&nbsp;
 ![2FA](https://img.shields.io/badge/2FA-required-brightgreen)
 
@@ -75,6 +75,7 @@ Self-hosted web frontend for Claude Code CLI — access Claude Code from any bro
 | **[parcl](https://github.com/rayketcham-lab/parcl)** | S/MIME Certificate Manager & Encryption Add-in for Microsoft Outlook — encryption, signing, LDAP lookup, RFC 5751/7508 compliant | [![CI](https://github.com/rayketcham-lab/parcl/workflows/CI/badge.svg)](https://github.com/rayketcham-lab/parcl/actions) ![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white) |
 | **[project-forge](https://github.com/rayketcham-lab/project-forge)** | Autonomous IT project think-tank engine — generates, scores, synthesizes, and scaffolds project ideas into GitHub repos with CI/CD | [![CI](https://github.com/rayketcham-lab/project-forge/workflows/CI/badge.svg)](https://github.com/rayketcham-lab/project-forge/actions) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) |
 | **[issue-reporter](https://github.com/rayketcham-lab/issue-reporter)** | Drop a feedback button on any web page. Reports become GitHub issues. No backend required. No dependencies. One file. | ![Alpha](https://img.shields.io/badge/status-Alpha-red) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) |
+| **[gh-tracker](https://github.com/rayketcham-lab/gh-tracker)** | Self-hosted GitHub analytics dashboard — archives traffic, referrers, issues, and workflows before the 14-day API expiry | ![Alpha](https://img.shields.io/badge/status-Alpha-red) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) |
 
 ---
 
@@ -98,6 +99,7 @@ Found a vulnerability? Email **root@quantumnexum.com** or use GitHub's [private 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)&nbsp;
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)&nbsp;
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)&nbsp;
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)&nbsp;
 ![Godot](https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=godotengine&logoColor=white)
 
 ---
