@@ -1,32 +1,19 @@
 # Code of Conduct
 
-## Our Pledge
+## Keep It Professional
 
-We are committed to providing a welcoming and harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
+This is an engineering project. We care about the quality of your code and ideas, nothing else.
 
-## Our Standards
+## Rules
 
-**Positive behavior includes:**
-
-- Using welcoming and inclusive language
-- Being respectful of differing viewpoints and experiences
-- Gracefully accepting constructive criticism
-- Focusing on what is best for the community
-- Showing empathy towards other community members
-
-**Unacceptable behavior includes:**
-
-- Trolling, insulting/derogatory comments, and personal or political attacks
-- Public or private harassment
-- Publishing others' private information without explicit permission
-- Other conduct which could reasonably be considered inappropriate in a professional setting
+1. **Be constructive.** Critique code and ideas, not people.
+2. **Stay on topic.** Technical discussion only — no politics, no drama.
+3. **No harassment.** Don't be an asshole. You know where the line is.
+4. **No doxxing.** Don't publish anyone's private information.
+5. **Argue with evidence.** Back up technical claims with code, data, or references.
 
 ## Enforcement
 
-Project maintainers are responsible for clarifying standards of acceptable behavior and will take appropriate and fair corrective action in response to any instances of unacceptable behavior.
+Violate these rules and you'll be warned once, then banned. Maintainers have final say.
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to **root@quantumnexum.com**. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances.
-
-## Attribution
-
-This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org/), version 2.1.
+Report problems to **root@quantumnexum.com**.
