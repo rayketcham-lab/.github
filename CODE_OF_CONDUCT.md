@@ -14,6 +14,6 @@ This is an engineering project. We care about the quality of your code and ideas
 
 ## Enforcement
 
-Violate these rules and you'll be warned once, then banned. Maintainers have final say.
+Violate these rules and you're out. No warnings, no appeals.
 
 Report problems to **root@quantumnexum.com**.
