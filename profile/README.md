@@ -3,7 +3,7 @@
 Infrastructure-focused research lab building at the intersection of enterprise PKI, post-quantum cryptography, and security engineering.
 
 ![Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue)&nbsp;
-![Repos](https://img.shields.io/badge/public%20repos-9-green)&nbsp;
+![Repos](https://img.shields.io/badge/public%20repos-10-green)&nbsp;
 ![Commit Signing](https://img.shields.io/badge/commit%20signing-required-brightgreen)&nbsp;
 ![2FA](https://img.shields.io/badge/2FA-required-brightgreen)
 
@@ -12,6 +12,8 @@ Infrastructure-focused research lab building at the intersection of enterprise P
 ## What We Do
 
 Certificate authority infrastructure, cryptographic tooling, and security engineering — focused on real-world deployment at scale. Background spans enterprise CA management and Federal PKI operations, including Federal Bridge cross-certification.
+
+On the consumer side we're building **HomePKI** — a private CA for the home network, delivered as a single static Linux binary with post-quantum algorithms available today.
 
 We're also exploring AI-driven project ideation with **Project Forge**, an autonomous think-tank engine that generates, scores, and scaffolds security-focused project ideas.
 
@@ -28,6 +30,19 @@ We're also exploring AI-driven project ideation with **Project Forge**, an auton
 ---
 
 ## Spotlight
+
+### HomePKI
+
+Your own Certificate Authority for your home network. One static Linux binary (musl, x86_64 + aarch64), post-quantum ready today, no cloud, no account. Issue real TLS certificates for routers, NAS, cameras, Home Assistant, and any device on your LAN — signed by a CA that belongs to you alone.
+
+![Pre-release](https://img.shields.io/badge/status-Pre--release-yellow)&nbsp;
+![Rust](https://img.shields.io/badge/Rust-DEA584?logo=rust&logoColor=white)&nbsp;
+![Post-quantum](https://img.shields.io/badge/post--quantum-ML--DSA_%2B_SLH--DSA-blueviolet)&nbsp;
+![License](https://img.shields.io/github/license/rayketcham-lab/HomePKI)
+
+[View Repository →](https://github.com/rayketcham-lab/HomePKI) &nbsp;|&nbsp; [FAQ →](https://github.com/rayketcham-lab/HomePKI/blob/main/docs/faq.md)
+
+---
 
 ### PKI-Signing-Service
 
