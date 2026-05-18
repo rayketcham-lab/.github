@@ -21,11 +21,31 @@ We're also exploring AI-driven project ideation with **Project Forge**, an auton
 
 ## Quantum Nexum
 
-> **[quantumnexum.com](https://quantumnexum.com)**
+> **[quantumnexum.com](https://quantumnexum.com)** &mdash; the flagship of this lab.
 >
-> Post-quantum cryptography is no longer theoretical — NIST finalized ML-DSA, ML-KEM, and SLH-DSA in 2024. Most organizations aren't ready.
->
-> Quantum Nexum is a PQC PKI platform and educational resource built to close that gap. We document the standards, demonstrate real implementations, and build the infrastructure to prove they work at scale.
+> Post-quantum cryptography is no longer theoretical &mdash; NIST finalized ML-DSA, ML-KEM, and SLH-DSA in 2024.  Most organizations aren't ready.  Quantum Nexum is a post-quantum PKI platform, software stack, and educational resource built to close that gap.
+
+![Operational](https://img.shields.io/badge/PKI-Operational-brightgreen)&nbsp;
+![Alpha](https://img.shields.io/badge/software-Alpha-red)&nbsp;
+![ML-DSA](https://img.shields.io/badge/signatures-ML--DSA_(FIPS_204)-blueviolet)&nbsp;
+![Live](https://img.shields.io/badge/ACME-Live-brightgreen)
+
+### What's live today
+
+- **PKI** &mdash; 3-tier post-quantum certificate authority signing with ML-DSA-87 (root) and ML-DSA-65 (issuing).  AIA and CRL endpoints live at [pki.quantumnexum.com](https://pki.quantumnexum.com/).
+- **ACME** &mdash; RFC 8555-compliant endpoint issuing post-quantum certificates from the QN PKI, at [acme.quantumnexum.com](https://acme.quantumnexum.com/).
+
+### Software (alpha)
+
+- **Spork** &mdash; pure-Rust post-quantum certificate authority.  ML-DSA + SLH-DSA signing, ACME/EST/SCEP enrollment, OCSP, CRLs.  Powers the QN PKI in production.  Single static binary, BSL 1.1.  Public site: [/spork/](https://quantumnexum.com/spork/).
+- **Parcl** &mdash; S/MIME certificate manager and encryption add-in for Microsoft Outlook.  Native S/MIME, LDAP directory lookup, RFC 5751/7508 compliant.  Repo: [parcl](https://github.com/rayketcham-lab/parcl).
+- **`spork-acme-installer`** &mdash; self-extracting installer for the standalone Spork ACME server.
+
+### Education
+
+Reference library, hands-on tools, and explainers covering NIST FIPS 203/204/205, NSA CNSA 2.0 timeline, IETF PQ drafts, and implementation guidance for OpenSSL 3.5 / liboqs.  All content stamped with `qn-last-verified` and CI-checked for drift.
+
+[Visit quantumnexum.com →](https://quantumnexum.com)
 
 ---
 
