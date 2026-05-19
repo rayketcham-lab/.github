@@ -25,25 +25,27 @@ We're also exploring AI-driven project ideation with **Project Forge**, an auton
 >
 > Post-quantum cryptography is no longer theoretical &mdash; NIST finalized ML-DSA, ML-KEM, and SLH-DSA in 2024.  Most organizations aren't ready.  Quantum Nexum is a post-quantum PKI platform, software stack, and educational resource built to close that gap.
 
-![Operational](https://img.shields.io/badge/PKI-Operational-brightgreen)&nbsp;
+![PKI Coming Soon](https://img.shields.io/badge/PKI-Coming_Soon-yellow)&nbsp;
 ![Alpha](https://img.shields.io/badge/software-Alpha-red)&nbsp;
 ![ML-DSA](https://img.shields.io/badge/signatures-ML--DSA_(FIPS_204)-blueviolet)&nbsp;
-![Live](https://img.shields.io/badge/ACME-Live-brightgreen)
+![ACME Coming Soon](https://img.shields.io/badge/ACME-Coming_Soon-yellow)
 
-### What's live today
+### Status today
 
-- **PKI** &mdash; 3-tier post-quantum certificate authority signing with ML-DSA-87 (root) and ML-DSA-65 (issuing).  AIA and CRL endpoints live at [pki.quantumnexum.com](https://pki.quantumnexum.com/).
-- **ACME** &mdash; RFC 8555-compliant endpoint issuing post-quantum certificates from the QN PKI, at [acme.quantumnexum.com](https://acme.quantumnexum.com/).
+- **PKI** &mdash; coming soon, being refactored.  The previous post-quantum CA hierarchy is on hold; a clean rebuild around ML-DSA-87 (root) and ML-DSA-65 (policy + issuing) is in flight.  AIA, CRL, and OCSP endpoints at [pki.quantumnexum.com](https://pki.quantumnexum.com/) will return once the new hierarchy lands.
+- **ACME** &mdash; coming soon, gated on the PKI refactor.  Will be an [RFC&nbsp;8555](https://datatracker.ietf.org/doc/html/rfc8555) endpoint at [acme.quantumnexum.com](https://acme.quantumnexum.com/) issuing post-quantum certs against the QN trust anchor.
+- **Forge** &mdash; in development.  Hands-on PQ tooling: keygen, hybrid TLS, algorithm compare, OpenSSL 3.5 walkthroughs.  At [/forge/](https://quantumnexum.com/forge/).
+- **Vault** &mdash; in development.  Reference library covering FIPS 203/204/205, the IETF LAMPS PQ RFCs, OpenSSL 3.5 LTS, liboqs 0.11.0+, and the CNSA&nbsp;2.0 / NSM-10 timelines.  At [/vault/](https://quantumnexum.com/vault/).
 
 ### Software (alpha)
 
-- **Spork** &mdash; pure-Rust post-quantum certificate authority.  ML-DSA + SLH-DSA signing, ACME/EST/SCEP enrollment, OCSP, CRLs.  Powers the QN PKI in production.  Single static binary, BSL 1.1.  Public site: [/spork/](https://quantumnexum.com/spork/).
+- **Spork** &mdash; pure-Rust post-quantum certificate authority.  ML-DSA + SLH-DSA signing, ACME/EST/SCEP enrollment, OCSP, CRLs.  Will power the QN PKI once the refactor lands; self-hostable today against your own private trust anchor.  Single static binary, BSL 1.1.  Public site: [/spork/](https://quantumnexum.com/spork/).
 - **Parcl** &mdash; S/MIME certificate manager and encryption add-in for Microsoft Outlook.  Native S/MIME, LDAP directory lookup, RFC 5751/7508 compliant.  Repo: [parcl](https://github.com/rayketcham-lab/parcl).
 - **`spork-acme-installer`** &mdash; self-extracting installer for the standalone Spork ACME server.
 
 ### Education
 
-Reference library, hands-on tools, and explainers covering NIST FIPS 203/204/205, NSA CNSA 2.0 timeline, IETF PQ drafts, and implementation guidance for OpenSSL 3.5 / liboqs.  All content stamped with `qn-last-verified` and CI-checked for drift.
+Reference library, hands-on tools, and explainers covering NIST FIPS 203/204/205, the NSA CNSA&nbsp;2.0 timeline (NSS exclusive use by 2033) vs. NSM-10 (broader 2035 goal), the IETF LAMPS PQ RFC stack (RFCs 9881, 9882, 9909, 9814, 9935, 9936, 9763), and implementation guidance for OpenSSL 3.5 LTS and liboqs 0.11.0+.  All content stamped with `qn-last-verified` and CI-checked for drift.
 
 [Visit quantumnexum.com →](https://quantumnexum.com)
 
