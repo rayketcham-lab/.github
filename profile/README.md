@@ -68,7 +68,7 @@ Your own Certificate Authority for your home network. One static Linux binary (m
 
 ### PKI-Signing-Service
 
-Pure Rust code signing engine supporting Authenticode (PE/CAB/MSI), PKCS#7/CMS, RFC 3161 timestamping, and PowerShell script signing. Multi-algorithm support including RSA, ECDSA, Ed25519, and **ML-DSA** (post-quantum). REST API for integration into CI/CD pipelines.
+Pure Rust code signing engine supporting Authenticode (PE/CAB/MSI), PKCS#7/CMS, RFC 3161 timestamping, and PowerShell script signing. Default algorithms: RSA (2048-4096), ECDSA (P-256/P-384/P-521), Ed25519. **Post-quantum ML-DSA (44/65/87) is experimental** — opt-in via `--features pq-experimental`, depends on the pre-1.0 `ml-dsa = 0.0.4` crate; not suitable for production yet. REST API for CI/CD integration, built-in RFC 3161 TSA server, PFX/PKCS#12 import.
 
 [![CI](https://github.com/rayketcham-lab/PKI-Signing-Service/workflows/CI/badge.svg)](https://github.com/rayketcham-lab/PKI-Signing-Service/actions)&nbsp;
 ![Alpha](https://img.shields.io/badge/status-Alpha-red)&nbsp;
@@ -81,7 +81,7 @@ Pure Rust code signing engine supporting Authenticode (PE/CAB/MSI), PKCS#7/CMS, 
 
 ### PKI-Client
 
-Modern PKI operations tool for certificate inspection, key management, TLS probing, compliance validation, and DANE. Built as an `openssl` replacement for operators who need to debug and manage certificate infrastructure at scale.
+Modern PKI CLI for certificate inspection, key management, TLS probing, compliance validation (FIPS 140-3, NIST SP 800-57, Federal Bridge), DANE/TLSA, and declarative CA hierarchy building. Pure Rust, no OpenSSL dependency, single static musl binary. Five output formats (text / json / compact / forensic / openssl). **Post-quantum ML-DSA is opt-in via `--features pqc`** (uses Spork's vendored PQ machinery). **Enrollment protocols removed in v0.9.0** — ACME / EST / SCEP are out of scope; pin v0.8.1 or wait for the separate `pki-enroll` tool.
 
 [![CI](https://github.com/rayketcham-lab/PKI-Client/workflows/CI/badge.svg)](https://github.com/rayketcham-lab/PKI-Client/actions)&nbsp;
 ![Alpha](https://img.shields.io/badge/status-Alpha-red)&nbsp;
