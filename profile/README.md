@@ -43,10 +43,6 @@ We're also exploring AI-driven project ideation with **Project Forge**, an auton
 - **Parcl** &mdash; S/MIME certificate manager and encryption add-in for Microsoft Outlook.  Native S/MIME, LDAP directory lookup, RFC 5751/7508 compliant.  Repo: [parcl](https://github.com/rayketcham-lab/parcl).
 - **`spork-acme-installer`** &mdash; self-extracting installer for the standalone Spork ACME server.
 
-### Education
-
-Reference library, hands-on tools, and explainers covering NIST FIPS 203/204/205, the NSA CNSA&nbsp;2.0 timeline (NSS exclusive use by 2033) vs. NSM-10 (broader 2035 goal), the IETF LAMPS PQ RFC stack (RFCs 9881, 9882, 9909, 9814, 9935, 9936, 9763), and implementation guidance for OpenSSL 3.5 LTS and liboqs 0.11.0+.  All content stamped with `qn-last-verified` and CI-checked for drift.
-
 [Visit quantumnexum.com →](https://quantumnexum.com)
 
 ---
