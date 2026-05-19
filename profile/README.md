@@ -34,7 +34,7 @@ We're also exploring AI-driven project ideation with **Project Forge**, an auton
 
 - **PKI** &mdash; coming soon, being refactored.  The previous post-quantum CA hierarchy is on hold; a clean rebuild around ML-DSA-87 (root) and ML-DSA-65 (policy + issuing) is in flight.  AIA, CRL, and OCSP endpoints at [pki.quantumnexum.com](https://pki.quantumnexum.com/) will return once the new hierarchy lands.
 - **ACME** &mdash; coming soon, gated on the PKI refactor.  Will be an [RFC&nbsp;8555](https://datatracker.ietf.org/doc/html/rfc8555) endpoint at [acme.quantumnexum.com](https://acme.quantumnexum.com/) issuing post-quantum certs against the QN trust anchor.
-- **Forge** &mdash; in development.  Hands-on PQ tooling: keygen, hybrid TLS, algorithm compare, OpenSSL 3.5 walkthroughs.  At [/forge/](https://quantumnexum.com/forge/).
+- **Forge** &mdash; in development.  Hands-on PQ tooling: keygen, signatures, hybrid TLS, algorithm compare, OpenSSL 3.5 walkthroughs, cert inspector, migration decision tree, signature size calculator.  At [/forge/](https://quantumnexum.com/forge/).
 - **Vault** &mdash; in development.  Reference library covering FIPS 203/204/205, the IETF LAMPS PQ RFCs, OpenSSL 3.5 LTS, liboqs 0.11.0+, and the CNSA&nbsp;2.0 / NSM-10 timelines.  At [/vault/](https://quantumnexum.com/vault/).
 
 ### Software (alpha)
