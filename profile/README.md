@@ -8,7 +8,7 @@ Home of **[Quantum Nexum](https://quantumnexum.com)** — post-quantum trust inf
 
 [![Website](https://img.shields.io/badge/quantumnexum.com-live-3DDC97?labelColor=0E1114)](https://quantumnexum.com)
 [![Post-Quantum](https://img.shields.io/badge/post--quantum-ML--DSA%20%2B%20SLH--DSA-8957e5?labelColor=0E1114)](https://csrc.nist.gov/pubs/fips/204/final)
-[![Signed commits required](https://img.shields.io/badge/commits-signed%20%26%20verified-2ea44f?logo=github&logoColor=white)](https://github.com/rayketcham-lab/.github/blob/main/SECURITY.md)
+[![Actions SHA-pinned](https://img.shields.io/badge/actions-SHA--pinned-2ea44f?logo=github&logoColor=white)](https://github.com/rayketcham-lab/.github/blob/main/SECURITY.md)
 [![2FA required](https://img.shields.io/badge/2FA-required-2ea44f?logo=github&logoColor=white)](https://github.com/rayketcham-lab/.github/blob/main/SECURITY.md)
 
 </div>
@@ -54,10 +54,10 @@ Our flagship is **Quantum Nexum**.  Alongside it we ship open tooling for PKI op
 
 ---
 
-## 📡 Now — July 2026
+## 📡 Now — August 2026
 
-- **tailnumber** went public — a detached hash-signing service (dHSaaS) proof-of-concept with an [open live demo](https://www.rayketcham.com/CRLs/tailnumber/db/): sign and verify in two `curl` commands
-- **quantumnexum.com** relaunched on the new dark engineering theme (June 2026)
+- **Supply-chain hardening across the org** — every GitHub Actions workflow in every active repository is now pinned to a commit SHA rather than a floating tag, enforced org-wide by policy
+- **tailnumber** published its [public overview](https://github.com/rayketcham-lab/tailnumber) — the design writeup stays open; the evaluation demo has been retired and the implementation remains private
 - **QN PKI** hierarchy rebuild underway — AIA/CRL/OCSP publication and the ACME directory follow it
 
 ---
@@ -70,7 +70,7 @@ Open code you can use today.  Release, CI, and license badges read straight from
 
 | Project | What it does | Status |
 |---------|--------------|--------|
-| **[tailnumber](https://github.com/rayketcham-lab/tailnumber)** · [live demo](https://www.rayketcham.com/CRLs/tailnumber/db/) | Detached Hash-Signing as a Service (dHSaaS) — send a hash, get back a portable signed proof.  ML-DSA and hybrid classical+PQ signatures, HSM-held non-extractable keys, 50-year trust chain, offline verification with nothing but OpenSSL.  Public overview + open live demo; source private. | [![demo](https://img.shields.io/badge/demo-live-2ea44f)](https://www.rayketcham.com/CRLs/tailnumber/db/) [![source](https://img.shields.io/badge/source-private-lightgrey)](https://github.com/rayketcham-lab/tailnumber) |
+| **[tailnumber](https://github.com/rayketcham-lab/tailnumber)** | Detached Hash-Signing as a Service (dHSaaS) — send a hash, get back a portable signed proof.  ML-DSA and hybrid classical+PQ signatures, HSM-held non-extractable keys, 50-year trust chain, offline verification with nothing but OpenSSL.  The [design writeup](https://github.com/rayketcham-lab/tailnumber) is public — key rotation, generational CAs, and why rotation alone doesn't keep a decades-old signature verifiable.  Implementation private; evaluation demo retired. | [![demo](https://img.shields.io/badge/demo-retired-6e7781)](https://github.com/rayketcham-lab/tailnumber) [![source](https://img.shields.io/badge/source-private-lightgrey)](https://github.com/rayketcham-lab/tailnumber) |
 | **[PKI-Client](https://github.com/rayketcham-lab/PKI-Client)** · [docs](https://rayketcham-lab.github.io/PKI-Client/) | Pure-Rust PKI CLI — inspect certificates, generate keys, probe TLS, validate FIPS 140-3 / NIST SP 800-57 / Federal Bridge compliance, and build CA hierarchies.  No OpenSSL; one static musl binary.  Opt-in post-quantum (ML-DSA, SLH-DSA) via `--features pqc`. | [![release](https://img.shields.io/github/v/release/rayketcham-lab/PKI-Client?label=release&color=2ea44f)](https://github.com/rayketcham-lab/PKI-Client/releases) [![CI](https://img.shields.io/github/actions/workflow/status/rayketcham-lab/PKI-Client/ci.yml?branch=main&label=CI)](https://github.com/rayketcham-lab/PKI-Client/actions) [![license](https://img.shields.io/github/license/rayketcham-lab/PKI-Client?color=blue)](https://github.com/rayketcham-lab/PKI-Client/blob/main/LICENSE) |
 | **[PKI-Signing-Service](https://github.com/rayketcham-lab/PKI-Signing-Service)** · [docs](https://rayketcham-lab.github.io/PKI-Signing-Service/) | Pure-Rust code-signing engine — Authenticode (PE/CAB/MSI), PKCS#7/CMS, RFC 3161 timestamping, PowerShell SIP, detached CMS.  Runs as CLI, REST API, or a standalone TSA server; batch signing and PFX import.  ML-DSA opt-in via `--features pq-experimental`. | [![release](https://img.shields.io/github/v/release/rayketcham-lab/PKI-Signing-Service?label=release&color=2ea44f)](https://github.com/rayketcham-lab/PKI-Signing-Service/releases) [![CI](https://img.shields.io/github/actions/workflow/status/rayketcham-lab/PKI-Signing-Service/ci.yml?branch=main&label=CI)](https://github.com/rayketcham-lab/PKI-Signing-Service/actions) [![license](https://img.shields.io/github/license/rayketcham-lab/PKI-Signing-Service?color=blue)](https://github.com/rayketcham-lab/PKI-Signing-Service/blob/main/LICENSE) |
 | **[parcl](https://github.com/rayketcham-lab/parcl)** | S/MIME encryption, signing, and certificate management add-in for Microsoft Outlook — LDAP directory lookup, AES-256, RFC 5751/7508 compliant.  **⚠️ Under active rework — releases pulled; not for install yet.** | [![license](https://img.shields.io/github/license/rayketcham-lab/parcl?color=blue)](https://github.com/rayketcham-lab/parcl/blob/main/LICENSE) [![status](https://img.shields.io/badge/status-rework-orange)](https://github.com/rayketcham-lab/parcl) |
@@ -87,10 +87,10 @@ Open code you can use today.  Release, CI, and license badges read straight from
 |---------|--------------|--------|
 | **[qn-claude-web](https://github.com/rayketcham-lab/qn-claude-web)** | Self-hosted web UI for the Claude Code CLI — full xterm.js terminal, persistent tmux sessions, chat, and multi-agent orchestration from any browser or device on your network.  Pure Python, no build step. | [![release](https://img.shields.io/github/v/release/rayketcham-lab/qn-claude-web?label=release&color=2ea44f)](https://github.com/rayketcham-lab/qn-claude-web/releases) [![CI](https://img.shields.io/github/actions/workflow/status/rayketcham-lab/qn-claude-web/ci.yml?branch=main&label=CI)](https://github.com/rayketcham-lab/qn-claude-web/actions) [![license](https://img.shields.io/github/license/rayketcham-lab/qn-claude-web?color=blue)](https://github.com/rayketcham-lab/qn-claude-web/blob/main/LICENSE) |
 | **[issue-reporter](https://github.com/rayketcham-lab/issue-reporter)** | Drop a feedback button on any web page — reports become GitHub issues.  One file, zero dependencies, no backend.  Auto-captures console errors, recent API calls, and DOM context; strict CSP and SRI supply-chain pinning. | [![release](https://img.shields.io/github/v/release/rayketcham-lab/issue-reporter?label=release&color=2ea44f)](https://github.com/rayketcham-lab/issue-reporter/releases) [![CodeQL](https://img.shields.io/github/actions/workflow/status/rayketcham-lab/issue-reporter/codeql.yml?branch=main&label=CodeQL)](https://github.com/rayketcham-lab/issue-reporter/actions) [![license](https://img.shields.io/github/license/rayketcham-lab/issue-reporter?color=blue)](https://github.com/rayketcham-lab/issue-reporter/blob/main/LICENSE) |
-| **[project-forge](https://github.com/rayketcham-lab/project-forge)** | Autonomous idea-generation engine — scores every idea on feasibility, fundability, and ambition across 19 categories, then human-gates one-click promotion to GitHub issues.  FastAPI + SQLite; ~$2–3/mo on Haiku 4.5 (or free via the Claude Code CLI). | [![CI](https://img.shields.io/github/actions/workflow/status/rayketcham-lab/project-forge/ci.yml?branch=main&label=CI)](https://github.com/rayketcham-lab/project-forge/actions) [![license](https://img.shields.io/github/license/rayketcham-lab/project-forge?color=lightgrey)](https://github.com/rayketcham-lab/project-forge) |
+| **[project-forge](https://github.com/rayketcham-lab/project-forge)** | Autonomous idea-generation engine — scores every idea on feasibility, fundability, and ambition across 19 categories, then human-gates one-click promotion to GitHub issues.  FastAPI + SQLite; ~$2–3/mo on Haiku 4.5 (or free via the Claude Code CLI). | [![CI](https://img.shields.io/github/actions/workflow/status/rayketcham-lab/project-forge/ci.yml?branch=main&label=CI)](https://github.com/rayketcham-lab/project-forge/actions) [![license](https://img.shields.io/github/license/rayketcham-lab/project-forge?color=blue)](https://github.com/rayketcham-lab/project-forge/blob/main/LICENSE) |
 | **[gh-tracker](https://github.com/rayketcham-lab/gh-tracker)** | Self-hosted GitHub analytics dashboard — archives traffic, referrers, people, issues, and self-hosted runner state to SQLite before GitHub's 14-day API wipe.  FastAPI backend, React dashboard. | [![release](https://img.shields.io/github/v/release/rayketcham-lab/gh-tracker?label=release&color=2ea44f)](https://github.com/rayketcham-lab/gh-tracker/releases) [![CI](https://img.shields.io/github/actions/workflow/status/rayketcham-lab/gh-tracker/ci.yml?branch=main&label=CI)](https://github.com/rayketcham-lab/gh-tracker/actions) [![license](https://img.shields.io/github/license/rayketcham-lab/gh-tracker?color=lightgrey)](https://github.com/rayketcham-lab/gh-tracker) |
 
-> Licensing varies by project — each badge above reflects that repository's own `LICENSE`.  Most tooling is Apache-2.0; shadowtrap is MIT; tailnumber is proprietary with the demo open for evaluation.  A couple of early-stage repos aren't licensed for reuse yet (the badge will say so).
+> Licensing varies by project — each badge above reflects that repository's own `LICENSE`.  Most tooling is Apache-2.0; shadowtrap and project-forge are MIT; tailnumber is proprietary (overview published, source closed).  gh-tracker isn't licensed for reuse yet, and its badge says so.
 
 ---
 
@@ -98,7 +98,9 @@ Open code you can use today.  Release, CI, and license badges read straight from
 
 We take security seriously across all repositories:
 
-- **Signed commits required** — every commit must carry a verified signature
+- **Branch rulesets** — every default branch blocks deletion, force-push, and non-linear history, and carries a commit-signature requirement
+- **Pinned actions** — every workflow across every active repository references its GitHub Actions by commit SHA, not by mutable tag, enforced by org policy
+- **Allow-listed actions** — workflows may only use GitHub-owned, verified, or explicitly approved publishers
 - **2FA enforced** — for all organization members
 - **Dependency scanning** — Dependabot enabled across repositories
 - **Code scanning** — CodeQL and custom security workflows
