@@ -1,9 +1,11 @@
-# Ketcham Lab — reorganization in progress
+# Ketcham Lab
 
-We're consolidating our infrastructure around a central orchestration setup:
+Independent software lab running a distributed build-and-deploy setup across
+homelab and cloud machines. Projects are developed in one place and shipped
+through self-hosted CI to wherever they run.
 
-- **ubuntu3** is the orchestrator: projects live in `/opt/llm/projects/`, Grok agents work from there.
-- **GitHub** remains the source of truth; target machines (ubuntu2, Rocky, AWS, Windows3090) receive code via self-hosted CI runners and deploy workflows.
-- Most repositories in this org have been made **private** while the reorganization settles.
+**Status: reorganizing.** Most repositories in this org are currently private
+while we consolidate tooling and deployment automation. Public activity will
+resume as projects mature.
 
 If you need access to something here, open an issue or contact the org owner.
