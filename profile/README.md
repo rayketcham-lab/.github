@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/banner.jpg" alt="Ketcham Lab — build automation, agent orchestration, continuous deployment" width="100%">
+  <img src="./assets/banner.jpg" alt="Ketcham Lab — cyber security, PKI, encryption" width="100%">
 </div>
 
 ## Ketcham Lab
