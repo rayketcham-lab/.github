@@ -4,12 +4,11 @@
 
 ## Ketcham Lab
 
-Independent software lab running a distributed build-and-deploy setup across
-homelab and cloud machines. Projects are developed in one place and shipped
-through self-hosted CI to wherever they run.
+Software, infrastructure, and automation — built in one place, shipped
+everywhere. We design and deploy systems across distributed environments,
+driven by agentic tooling and continuous integration.
 
-**Status: reorganizing.** Most repositories in this org are currently private
-while we consolidate tooling and deployment automation. Public activity will
-resume as projects mature.
+**All repositories are currently private** while we reorganize and harden our
+tooling. Public releases land here as projects mature.
 
-If you need access to something here, open an issue or contact the org owner.
+Need access? Open an issue or reach out to the org owner.
